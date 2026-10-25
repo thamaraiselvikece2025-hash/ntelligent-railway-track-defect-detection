@@ -1,0 +1,32 @@
+Intelligent Railway Track Surface Defect Detection
+
+Project Description
+
+This project uses Python and deep learning to analyse railway track images.
+
+Technologies Used
+
+- Python
+- Streamlit
+- PyTorch
+- MobileNetV2
+
+Features
+
+- Upload an image
+- Analyse the image using a pretrained model
+- Display the predicted class and confidence score
+
+Installation
+
+Install the required packages:
+
+pip install -r requirements.txt
+
+Run the Project
+
+streamlit run app.py
+
+Note
+
+The current version is a general image-classification demonstration. A railway-specific trained model is required to detect actual railway track defects.
